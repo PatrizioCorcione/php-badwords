@@ -8,16 +8,14 @@
   <title>Parolaccia</title>
 </head>
 
-<body>
-  <div class="container my-5 ">
-    <form action="stamp.php" method="POST">
-
+<body class="bg-danger">
+  <div class=" my-5">
+    <form class="container my-3 text-center" action="stamp.php" method="POST">
+      <label for="disabledTextInput" class="form-label  fs-3  my-3 fw-bold ">INSERISCI UN TESTO</label>
       <textarea name="text" class="form-control" aria-label="With textarea"></textarea>
-
-
+      <label for="disabledTextInput" class="form-label fs-3  my-3 fw-bold ">INSERISCI UNA PAROLA DA CENSURARE</label>
       <textarea name="censored" class="form-control" aria-label="With textarea"></textarea>
-
-      <button class="btn btn-dark" type="submit">INVIA</button>
+      <button class="btn btn-dark my-3 " type="submit">INVIA</button>
     </form>
   </div>
 </body>
