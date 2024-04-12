@@ -9,7 +9,17 @@
 </head>
 
 <body>
+  <div class="container my-5 ">
+    <form action="stamp.php" method="POST">
 
+      <textarea name="text" class="form-control" aria-label="With textarea"></textarea>
+
+
+      <textarea name="censored" class="form-control" aria-label="With textarea"></textarea>
+
+      <button class="btn btn-dark" type="submit">INVIA</button>
+    </form>
+  </div>
 </body>
 
 </html>
